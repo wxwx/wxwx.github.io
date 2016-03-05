@@ -54,6 +54,8 @@ footer-links:
 #
 
 markdown: redcarpet
+redcarpet:
+    extensions: ["no_intra_emphasis"]
 highlighter: pygments
 permalink: /:title/
 
