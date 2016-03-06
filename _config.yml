@@ -53,9 +53,7 @@ footer-links:
 # !! You don't need to change any of the configuration flags below !!
 #
 
-markdown: redcarpet
-redcarpet:
-    extensions: ["no_intra_emphasis"]
+markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 
